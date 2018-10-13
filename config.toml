@@ -1,17 +1,22 @@
-baseurl = "https://example.org"
-title = "Universal"
-theme = "hugo-universal-theme"
-themesDir = "../.."
-languageCode = "en-us"
+baseurl = "http://www.iasobiodelivery.com.br"
+
+title = "Iaso Biodelivery"
+theme = "universal"
+# themesDir = "../.."
+
+# languageCode = "en-us"
+languageCode = "pt-br"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+# defaultContentLanguage = "en"
+defaultContentLanguage = "pt-br"
+
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+# disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+# googleAnalytics = ""
 
 # Define the number of posts per page
-paginate = 10
+paginate = 5
 
 [menu]
 
@@ -23,58 +28,50 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
+    name = "Sobre"
+    # identifier = "sobre"
+    url  = "/sobre/"
     weight = 2
 
 [[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
+    name = "Novidades"
+    # url  = "/noticias/"
+    url  = "/blog/"
+    # identifier = "blog"
     weight = 3
 
 [[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
+    name = "Contato"
+    url  = "/contato/"
     weight = 4
 
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fa fa-2x fa-github'></i>"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/company/iaso-biodelivery/"
+    pre = "<i class='fa fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
     name = "Email"
-    url = "mailto:your@email.com"
+    url = "mailto:contato@iasobiodelivery.com.br"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
+
+    # FIXME Terá whatsapp?
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    # author = "Iaso Biodelivery"
+    defaultKeywords = ["iaso", "biodelivery", "implantes", "dispositivos médicos", "liberação de fármacos"]
+    defaultDescription = "Empresa de desenvolvimento de dispositivos médicos com sistema de liberação de fármacos"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    # googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "red"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -89,27 +86,27 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "contato@iasobiodelivery.com.br"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright (c) 2018, Iaso Biodelivery; todos os direitos reservados."
+    show_social_links_on_footer = true
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    date_format = "2 January, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    # SC-401, km 01, 600, Ed. CELTA - João Paulo, Florianópolis - SC, 88030-000, Brazil
+    address = """<p><strong>Iaso Biodelivery</strong>
+        <br>SC-401, km 01, 600
+        <br>Ed. CELTA - João Paulo
+        <br>88030-000
+        <br>Florianópolis - SC - <strong>Brasil</strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "-27.5711992"
+    longitude = "-48.5090725"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -117,20 +114,25 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
-      """
+    # text = """<p class="hidden-sm hidden-xs">Nos contate por +420 777 555 333 or contato@iasobiodelivery.com.br.</p>
+    #   <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+    #   <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+    #   </p>
+    #   """
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
-    search = true
+    categories = false
+    tags = false
+    search = false
+
+[params.homepage]
+    enable = true
+    title = "Iaso Biodelivery"
+    description = "<p>Delivering Heath Solutions</p>"
 
 [params.carousel]
-    enable = true
+    enable = false
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
@@ -146,26 +148,31 @@ paginate = 10
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    title = "Produtos"
+    # FIXME O texto será aqui?
+    subtitle = "Implante subdérmico para o tratamento de Alzheimer."
 
 [params.see_more]
     enable = true
-    icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    icon = "fa fa-handshake-o"
+    # icon = "fa fa-industry"
+    # icon = "fa fa-microchip"
+    title = "Investidores"
+    subtitle = "Quer fazer parte da revolução em tratamentos de doenças crônicas?"
+    link_url = "/contato"
+    link_text = "Entre em contato"
 
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
+    title = "Sobre"
+    subtitle = "FIXME Iza, teremos um texto aqui?"
+    link_url = "/sobre"
 
 [params.recent_posts]
     enable = true
-    title = "From our blog"
+    title = "Últimas novidades"
+    # FIXME Mudar este texto?
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

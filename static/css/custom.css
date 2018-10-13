@@ -1,0 +1,28 @@
+#top .social a {
+  margin: 0 5px;
+}
+
+/* Footer */
+#copyright {
+  padding: 10px;
+  line-height: 18px;
+}
+
+#footer .social {
+  padding-bottom: 15px;
+}
+#footer .social a {
+  color: #999999;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: bottom;
+}
+#footer .social a:hover {
+  color: #fff;
+  /* color: #da4d4d; */
+}

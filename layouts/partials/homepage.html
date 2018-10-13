@@ -1,0 +1,24 @@
+<!-- iasobiodelivery: custom carousel section to hold a single homepage -->
+{{ if isset .Site.Params "homepage" }}
+{{ if .Site.Params.homepage.enable }}
+{{ with .Site.Params.homepage }}
+<section>
+    <div class="home-carousel">
+        <div class="dark-mask"></div>
+        <div class="container">
+            <div class="homepage">
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-7 right">
+                            <h1>{{ .title }}</h1>
+                            {{ .description | safeHTML }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
