@@ -1,5 +1,84 @@
+figure.responsive > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  figure.right {
+    float: right;
+    padding-left: 20px;
+  }
+  figure.right + *::after { /* clearfix */
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+
+/* Page content */
+#post-content p,
+#page-content p {
+  text-rendering: optimizeLegibility;
+  /* FIXME Justificar??? */
+  /* text-align: justify; */
+  margin-bottom: 18px;
+}
+/* TODO Usar uma fonte menor para xs devices */
+
+/* Utilities */
+.bold {
+  font-weight: bold !important;
+}
+.center {
+  text-align: center !important;
+}
+.font-smaller {
+  font-size: smaller;
+}
+.margin-top { margin-top: 15px; }
+.margin-bottom { margin-bottom: 15px; }
+.padding-top { padding-top: 15px; }
+.padding-bottom { padding-bottom: 15px; }
+.margin-lg-top { margin-top: 25px; }
+.margin-lg-bottom { margin-bottom: 25px; }
+.padding-lg-top { padding-top: 25px; }
+.padding-lg-bottom { padding-bottom: 25px; }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* // end Utilities */
+
 #top .social a {
   margin: 0 5px;
+}
+
+/* Footnotes */
+.footnote-ref > a {
+  letter-spacing: 1px;
+  padding-left: 1px;
+  /* font-family: monospace; */
+}
+.footnote-ref > a:before { content: '[' }
+.footnote-ref > a:after  { content: ']' }
+/* .footnote-ref-separator { padding: 2px; color: #da4d4d; } */
+.footnotes > hr:after {
+  content: 'REFERÊNCIAS';
+  /* Based on style.red.css H3 element */
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.1;
+}
+.footnotes > hr {
+  padding: 20px 0 10px;
+}
+.footnotes > ol > li {
+  padding: 6px 0;
+  font-size: 0.95em;
 }
 
 /* Footer */

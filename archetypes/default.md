@@ -1,9 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
+# author: ""
+# banner: "img/blog/placeholder.png"
 # categories: []
 # tags: []
-banner: "img/banners/placeholder.jpg"
 draft: true
 ---
 

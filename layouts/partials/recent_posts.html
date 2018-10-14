@@ -18,7 +18,9 @@
 
                 {{ $posts := .Paginate (where .Data.Pages "Type" "blog") }}
                 {{ range first 4 $posts.Pages }}
-                <div class="col-md-3 col-sm-6">
+                <!-- FIXME Descomentar quando tiver o quarto post -->
+                <!-- <div class="col-md-3 col-sm-6"> -->
+                <div class="col-md-4 col-sm-6">
                     <div class="box-image-text blog">
                         <div class="top">
                             <div class="image" style="overflow:hidden">

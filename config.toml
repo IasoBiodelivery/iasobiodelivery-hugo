@@ -18,6 +18,12 @@ defaultContentLanguage = "pt-br"
 # Define the number of posts per page
 paginate = 5
 
+footnoteReturnLinkContents = "↑" # "↩"
+summaryLength = 50  # 70
+
+[blackfriday]
+    fractions = false
+
 [menu]
 
 # Main menu
