@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-# author: ""
+author: "Izabelle M. Gindri"
 # banner: "img/blog/placeholder.png"
 # categories: []
 # tags: []

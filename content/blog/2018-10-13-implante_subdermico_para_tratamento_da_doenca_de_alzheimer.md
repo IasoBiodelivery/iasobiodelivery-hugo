@@ -2,7 +2,7 @@
 title: "Implante subdérmico para tratamento da doença de Alzheimer"
 # FIXME Alterar a data
 date: 2018-10-13T20:01:27-03:00
-# author: ""
+author: "Izabelle M. Gindri"
 banner: "img/blog/light-bulb.jpg"
 # categories: []
 # tags: []

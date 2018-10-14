@@ -1,3 +1,14 @@
+* {
+  /* letter-spacing: .02em; */
+  letter-spacing: .01em;
+}
+
+@media (max-width: 767px) {
+  body {
+    /* font-size: 2vh; */
+  }
+}
+
 figure.responsive > img {
   display: block;
   max-width: 100%;
@@ -59,6 +70,16 @@ figure.responsive > img {
 
 /* ########################################################################## */
 /* Sections */
+
+.bar.background-image-fixed-2 {
+  background: url('../img/sections/bg-investidores.jpg') center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bar .dark-mask {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
 
 .testimonials .item .testimonial .text {
   margin-bottom: 10px;
