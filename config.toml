@@ -117,6 +117,12 @@ summaryLength = 50  # 70
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
+[params.contact]
+    emailsSubjectPrefix = "[Iaso:Site]"
+    thankyouPage = "obrigado"
+    # FIXME Quer receber email em cópia?
+    # emailCc = "izabellegindri@gmail.com"
+  
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true

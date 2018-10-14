@@ -28,6 +28,12 @@
 - id: contactMessage
   translation: "Your Message"
 
+- id: contactPhone
+  translation: "Seu Phone"
+
+- id: contactSubject
+  translation: "Your Subject"
+
 - id: contactSend
   translation: "Send Message"
 

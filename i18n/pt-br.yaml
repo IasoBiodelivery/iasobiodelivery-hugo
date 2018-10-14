@@ -20,10 +20,17 @@
   translation: "Formulário de contato"
 
 - id: contactName
+  # FIXME Manter Seu nome, seu isso, seu aquilo?
   translation: "Seu Nome"
 
 - id: contactMail
   translation: "Seu Email"
+
+- id: contactPhone
+  translation: "Seu Telefone"
+
+- id: contactSubject
+  translation: "Seu Assunto"
 
 - id: contactMessage
   translation: "Sua Mensagem"
