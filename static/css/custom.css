@@ -57,6 +57,23 @@ figure.responsive > img {
   margin: 0 5px;
 }
 
+/* ########################################################################## */
+/* Sections */
+
+.testimonials .item .testimonial .text {
+  margin-bottom: 10px;
+}
+.testimonials .item .testimonial .bottom {
+  height: 80px;
+}
+.testimonials .item .testimonial .name-picture img {
+  float: right;
+  width: 100px;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+
+/* ########################################################################## */
 /* Footnotes */
 .footnote-ref > a {
   letter-spacing: 1px;
