@@ -70,6 +70,42 @@ figure.responsive > img {
 
 /* ########################################################################## */
 /* Sections */
+.home-carousel {
+  background: url('../img/sections/bg-homepage.jpg') center center repeat;
+  /*
+  position: relative;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  */
+
+  height: 400px;
+  /* TODO Testar scroll horizontal */
+  overflow: hidden;
+}
+.home-carousel .dark-mask {
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+.slant {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color: #fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -35px;
+  padding: 0;
+  width: 101%;
+}
 
 .bar.background-image-fixed-2 {
   background: url('../img/sections/bg-investidores.jpg') center top no-repeat;
