@@ -180,7 +180,10 @@ summaryLength = 50  # 70
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "Sobre"
-    subtitle = "FIXME Iza, teremos um texto aqui?"
+    subtitle = "Transformando soluções em saúde através da tecnologia de dispositivos médicos com sistemas de liberação de fármacos."
+    # description = "A Iaso Biodelivery atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado?"
+    # FIXME "Está interessado?" faz parte do botão?
+    description = "A Iaso **Biodelivery** atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado? [Entre em contato.](/contato/)"
     link_url = "/sobre"
 
 [params.recent_posts]

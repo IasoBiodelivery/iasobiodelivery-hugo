@@ -4,23 +4,25 @@
 <section class="bar background-gray no-mb">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10 col-md-offset-1">
                 <div class="heading text-center">
                     <h2>{{ .Site.Params.clients.title }}</h2>
                 </div>
 
                 <p class="lead text-center">
                     {{ .Site.Params.clients.subtitle }}
+                </p>
+                <div class="text-center">
+                    <p>{{ .Site.Params.clients.description | markdownify }}</p>
                     {{ if .Site.Params.clients.link_url }}
-                    <!-- FIXME Qual botão??? -->
-                    <br><br>
-                    <a href="{{ .Site.Params.clients.link_url }}" class="btn btn-template-main btn-lg">{{ i18n "moreAboutUs" }}</a>
-                    <br><br>
+                    <br>
+                    <!-- btn-template-main -->
                     <a href="{{ .Site.Params.clients.link_url }}" class="btn btn-template-primary btn-lg">{{ i18n "moreAboutUs" }}</a>
                     {{ end }}
-                </p>
+                </div>
 
-                <!-- FIXME remover os logos? -->
+                <!-- Remove os logos -->
+                {{/* 
                 <ul class="owl-carousel customers">
                     {{ range .Site.Data.clients }}
                     <li class="item" title="{{ .name }}">
@@ -35,6 +37,7 @@
                     {{ end }}
                 </ul>
                 <!-- /.owl-carousel -->
+                */}}
             </div>
         </div>
     </div>

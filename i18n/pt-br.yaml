@@ -70,6 +70,7 @@
 
 - id: moreAboutUs
   translation: "Conheça mais sobre nós"
+  # translation: "Entre em contato"
 
 - id: newer
   translation: "Mais novas"
