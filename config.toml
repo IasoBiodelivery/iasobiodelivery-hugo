@@ -11,9 +11,9 @@ languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
 
 # Enable comments by entering your Disqus shortname
-# disqusShortname = "devcows"
+# disqusShortname = "iasobiodelivery"
 # Enable Google Analytics by entering your tracking code
-# googleAnalytics = ""
+googleAnalytics = "UA-127555031-1"
 
 # Define the number of posts per page
 paginate = 5
