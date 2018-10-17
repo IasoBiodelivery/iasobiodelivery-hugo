@@ -66,15 +66,9 @@ figure.right + *::after { /* clearfix */
 /* TODO Usar uma fonte menor para xs devices */
 
 /* Utilities */
-.bold {
-  font-weight: bold !important;
-}
-.center {
-  text-align: center !important;
-}
-.font-smaller {
-  font-size: smaller;
-}
+.bold { font-weight: bold !important; }
+.center { text-align: center !important; }
+.font-smaller { font-size: smaller; }
 .margin-top { margin-top: 15px; }
 .margin-bottom { margin-bottom: 15px; }
 .padding-top { padding-top: 15px; }
@@ -96,17 +90,31 @@ figure.right + *::after { /* clearfix */
 
 /* ########################################################################## */
 /* Sections */
+@media (max-width: 767px) {
+  section, div.section { margin-bottom: 30px; }
+  .bar { padding: 50px 0; }
+}
+@media (max-width: 479px) {
+  .bar { padding: 40px 0; }
+  #footer {
+    padding: 40px 0;
+  }
+  .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+}
 .home-carousel {
   background: url('../img/sections/bg-homepage.jpg') center center repeat;
-  /*
-  position: relative;
-  background-size: cover;
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  */
-
   height: 400px;
+
+  /* Vertically centered */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px; /* need for slant bar */
+
   /* TODO Testar scroll horizontal */
   overflow: hidden;
 }
@@ -143,15 +151,18 @@ figure.right + *::after { /* clearfix */
   filter: alpha(opacity=40);
 }
 
-.testimonials .item .testimonial .text {
-  margin-bottom: 10px;
+.testimonials .item {
+  padding-bottom: 80px;
 }
 .testimonials .item .testimonial .bottom {
-  height: 80px;
+  height: 30px;
+}
+.testimonials .item .testimonial .name-picture {
+  margin-top: 5px;
 }
 .testimonials .item .testimonial .name-picture img {
   float: right;
-  width: 100px;
+  width: 80px;
   border-radius: 30px;
   margin-left: 10px;
 }
@@ -185,6 +196,9 @@ figure.right + *::after { /* clearfix */
 #copyright {
   padding: 10px;
   line-height: 18px;
+}
+#copyright .templateby-license {
+  font-size: 11px;
 }
 
 #footer .social {

@@ -1,7 +1,7 @@
 ---
 title: "Dispositivos médicos em sistemas de liberação de fármacos"
-# FIXME Alterar a data
-date: 2018-10-13T19:20:27-03:00
+# TODO Alterar a data
+date: 2018-10-16T19:20:27-03:00
 author: "Izabelle M. Gindri"
 banner: "img/blog/reflection-water-water-drops.jpg"
 # categories: []

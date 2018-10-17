@@ -89,9 +89,9 @@ _________________________________________________________ -->
             {{ if isset .Site.Params "copyright" }}
             <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
             {{ end }}
-            <p class="pull-right">
+            <p class="pull-right templateby-license">
               <!-- {{ i18n "templateBy" }} <a href="http://bootstrapious.com/free-templates">Bootstrapious</a>. -->
-              {{ i18n "templateBy" }} <a style="color: #ccc" href="http://bootstrapious.com/free-templates">Bootstrapious</a>.
+              {{ i18n "templateBy" }} <a style="color: #ccc" href="http://bootstrapious.com/free-templates" rel="noopener noreferrer" target="_blank">Bootstrapious</a>.
               <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
 
               <!-- {{ i18n "portedBy" }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a> -->

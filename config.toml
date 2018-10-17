@@ -41,6 +41,9 @@ summaryLength = 50  # 70
 
 [[menu.main]]
     name = "Novidades"
+    # https://github.com/devcows/hugo-universal-theme/issues/46
+    # https://github.com/devcows/hugo-universal-theme/issues/88
+    # https://github.com/devcows/hugo-universal-theme/commit/12225a50bf043ff73639d932da2d7a525e53aced
     # url  = "/noticias/"
     url  = "/blog/"
     # identifier = "blog"
@@ -95,7 +98,7 @@ summaryLength = 50  # 70
     email = "contato@iasobiodelivery.com.br"
 
     # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2018, Iaso Biodelivery; todos os direitos reservados."
+    copyright = "&copy; 2018, Iaso Biodelivery; todos os direitos reservados."
     show_social_links_on_footer = true
 
     # Format dates with Go's time formatting
@@ -161,7 +164,6 @@ summaryLength = 50  # 70
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "Produtos"
-    # FIXME O texto será aqui?
     subtitle = "Implante subdérmico para o tratamento de Alzheimer."
 
 [params.see_more]
@@ -182,12 +184,11 @@ summaryLength = 50  # 70
     title = "Sobre"
     subtitle = "Transformando soluções em saúde através da tecnologia de dispositivos médicos com sistemas de liberação de fármacos."
     # description = "A Iaso Biodelivery atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado?"
-    # FIXME "Está interessado?" faz parte do botão?
     description = "A Iaso **Biodelivery** atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado? [Entre em contato.](/contato/)"
     link_url = "/sobre"
 
 [params.recent_posts]
     enable = true
     title = "Últimas novidades"
-    # FIXME Mudar este texto?
+    # FIXME Mudar este texto
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

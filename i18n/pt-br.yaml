@@ -20,7 +20,6 @@
   translation: "Formulário de contato"
 
 - id: contactName
-  # FIXME Manter Seu nome, seu isso, seu aquilo?
   translation: "Seu Nome"
 
 - id: contactMail

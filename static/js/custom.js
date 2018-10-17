@@ -2,15 +2,40 @@
 /* eslint no-unused-vars: ["error", { "varsIgnorePattern": "animationsSlider" }] */
 
 $(function () {
-  slidersCustom();
+  // slidersCustom();
 })
+
+/* slider homepage */
+function sliderHomepage () {
+  // $('#slider').owlCarousel({
+}
+
+/* sliders */
+function sliders () {
+  if ($('.owl-carousel').length) {
+    $('.testimonials').owlCarousel({
+      items: 3,
+      itemsDesktop: [1199, 3],
+      itemsDesktopSmall: [980, 3],
+      itemsTablet: [768, 2],
+      itemsMobile: [479, 1]
+    });
+    // $('.customers').owlCarousel({
+    // $('.project').owlCarousel({
+    // $('.homepage').owlCarousel({
+  }
+}
 
 /* sliders */
 function slidersCustom() {
   if ($('.owl-carousel').length) {
     // Produtos
     $(".testimonials").data('owlCarousel').reinit({
-      items: 3
+      items: 3,
+      itemsDesktop: [1199, 3],
+      itemsDesktopSmall: [980, 3],
+      itemsTablet: [768, 2],
+      itemsMobile: [479, 1]
     });
     // Sobre
     // $(".customers").data('owlCarousel').reinit({ items: 1 });

@@ -1,7 +1,7 @@
 ---
 title: "Sobre"
 description: "Sobre a Iaso Biodelivery"
-keywords: ["about","sobre","iaso biodelivery"]
+keywords: ["about","sobre","iaso biodelivery", "mvp"]
 ---
 
 <!-- FIXME Como ficará esta imagem aqui? Diminuir? Tirar? -->
