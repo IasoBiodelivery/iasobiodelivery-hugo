@@ -106,8 +106,10 @@ summaryLength = 50  # 70
     # Format dates with Go's time formatting
     date_format = "2 January, 2006"
 
-    logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
+    # FIXME criar o favico
+    # logo = "img/logo.svg"
+    logo = "img/logo_text.svg"
+    logo_small = "img/logo-small.svg"
     # SC-401, km 01, 600, Ed. CELTA - João Paulo, Florianópolis - SC, 88030-000, Brazil
     address = """<p><strong>Iaso Biodelivery</strong>
         <br>SC-401, km 01, 600

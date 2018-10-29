@@ -9,6 +9,16 @@
   }
 }
 
+img.logo {
+  /* width: 180px; */
+  height: 45px;
+}
+@media (max-width: 767px) {
+  img.logo {
+    height: 38px;
+  }
+}
+
 figure.responsive > img {
   display: block;
   max-width: 95%;
