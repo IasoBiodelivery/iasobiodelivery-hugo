@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iaso Biodelivery</title>
+    <link>http://www.iasobiodelivery.com.br/</link>
+    <description>Recent content on Iaso Biodelivery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 17 Oct 2018 18:01:27 -0300</lastBuildDate>
+    
+	<atom:link href="http://www.iasobiodelivery.com.br/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Implante subdérmico para tratamento da doença de Alzheimer</title>
+      <link>http://www.iasobiodelivery.com.br/blog/2018/10/17/2018-10-17-implante_subdermico_para_tratamento_da_doenca_de_alzheimer/</link>
+      <pubDate>Wed, 17 Oct 2018 18:01:27 -0300</pubDate>
+      
+      <guid>http://www.iasobiodelivery.com.br/blog/2018/10/17/2018-10-17-implante_subdermico_para_tratamento_da_doenca_de_alzheimer/</guid>
+      <description>A doença de Alzheimer é uma desordem neurodegenerativa cerebral, progressiva e crônica, caracterizada por déficits em memória e função cognitiva1. Esta patologia atinge 6 – 8% das pessoas com idade de 65 anos e 30% da população com mais de 85 anos12. No Brasil, o número de pessoas com a doença já atinge cerca de 1,2 milhões e segundo a Associação Brasileira de Alzheimer estima-se a duplicação desse número até 20302.</description>
+    </item>
+    
+    <item>
+      <title>Dispositivos médicos em sistemas de liberação de fármacos</title>
+      <link>http://www.iasobiodelivery.com.br/blog/2018/10/16/2018-10-16-dispositivos_medicos_em_sistemas_de_liberacao_de_farmacos/</link>
+      <pubDate>Tue, 16 Oct 2018 19:20:27 -0300</pubDate>
+      
+      <guid>http://www.iasobiodelivery.com.br/blog/2018/10/16/2018-10-16-dispositivos_medicos_em_sistemas_de_liberacao_de_farmacos/</guid>
+      <description>O rápido desenvolvimento científico tem levado a solução de problemas de grande relevância na área da saúde. Aliado a evolução dos produtos farmacêuticos, a expansão da indústria de dispositivos médicos tornou possível o uso sinérgico dessas duas tecnologias aumentando a variedade de abordagens para aliviar o sofrimento e prolongar a vida dos pacientes1.</description>
+    </item>
+    
+    <item>
+      <title>Contato</title>
+      <link>http://www.iasobiodelivery.com.br/contato/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.iasobiodelivery.com.br/contato/</guid>
+      <description>Para saber mais sobre oportunidades de desenvolvimento, parcerias e investimentos, entre em contato conosco.</description>
+    </item>
+    
+    <item>
+      <title>Contato</title>
+      <link>http://www.iasobiodelivery.com.br/obrigado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.iasobiodelivery.com.br/obrigado/</guid>
+      <description>Obrigado pelo contato!
+Voltar para a página inicial</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>http://www.iasobiodelivery.com.br/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.iasobiodelivery.com.br/sobre/</guid>
+      <description>--  A Iaso Biodelivery é uma startup voltada para o desenvolvimento e fabricação de dispositivos médicos implantáveis com sistemas de liberação de fármacos (DMISLF). Atuamos no processo inicial de desenvolvimento do produto até a produção do minimum viable product (MVP, do inglês produto mínimo viável), que é então avaliado quanto a possibilidade de fabricação e comercialização pela própria empresa ou venda da tecnologia para indústrias do setor de dispositivos médicos e farmacêuticos.</description>
+    </item>
+    
+  </channel>
+</rss>
