@@ -95,7 +95,9 @@ summaryLength = 50  # 70
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "contato@iasobiodelivery.com.br"
+    # FIXME Habilitar o email
+    # email = "contato@iasobiodelivery.com.br"
+    email = "denisazevedo@gmail.com"
 
     # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
     copyright = "&copy; 2018, Iaso Biodelivery; todos os direitos reservados."
