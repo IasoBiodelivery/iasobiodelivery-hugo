@@ -20,19 +20,19 @@
   translation: "Formulário de contato"
 
 - id: contactName
-  translation: "Seu Nome"
+  translation: "Nome"
 
 - id: contactMail
-  translation: "Seu Email"
+  translation: "Email"
 
 - id: contactPhone
-  translation: "Seu Telefone"
+  translation: "Telefone"
 
 - id: contactSubject
-  translation: "Seu Assunto"
+  translation: "Assunto"
 
 - id: contactMessage
-  translation: "Sua Mensagem"
+  translation: "Mensagem"
 
 - id: contactSend
   translation: "Enviar Mensagem"
