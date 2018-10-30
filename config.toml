@@ -168,7 +168,7 @@ summaryLength = 50  # 70
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "Produtos em desenvolvimento"
-    subtitle = "Implante subdérmico para o tratamento de Alzheimer."
+    subtitle = "Implante subdérmico para o tratamento da Doença de Alzheimer."
 
 [params.see_more]
     enable = true

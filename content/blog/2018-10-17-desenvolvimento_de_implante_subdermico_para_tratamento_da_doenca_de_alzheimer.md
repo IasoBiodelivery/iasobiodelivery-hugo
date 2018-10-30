@@ -1,5 +1,5 @@
 ---
-title: "Implante subdérmico para tratamento da doença de Alzheimer"
+title: "Desenvolvimento de implante subdérmico para tratamento da doença de Alzheimer"
 # TODO Alterar a data
 date: 2018-10-17T18:01:27-03:00
 author: "Izabelle M. Gindri"
