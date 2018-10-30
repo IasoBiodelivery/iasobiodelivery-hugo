@@ -94,8 +94,13 @@ figure.right + *::after { /* clearfix */
 }
 /* // end Utilities */
 
+/* FIXME Ver com a Iza */
 #top .social a {
-  margin: 0 5px;
+  margin: 0 2px;
+  font-size: 10px;
+}
+#top {
+  padding: 2px 0;
 }
 
 /* ########################################################################## */
