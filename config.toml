@@ -167,7 +167,7 @@ summaryLength = 50  # 70
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "Produtos"
+    title = "Produtos em desenvolvimento"
     subtitle = "Implante subdérmico para o tratamento de Alzheimer."
 
 [params.see_more]
