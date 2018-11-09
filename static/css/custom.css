@@ -120,6 +120,11 @@ figure.right + *::after { /* clearfix */
     line-height: 70px;
   }
 }
+.home-carousel h1,
+.home-carousel ul,
+.home-carousel p {
+  text-transform: none;
+}
 .home-carousel {
   background: url('../img/sections/bg-homepage.jpg') center center repeat;
   height: 400px;
@@ -134,7 +139,7 @@ figure.right + *::after { /* clearfix */
   overflow: hidden;
 }
 .home-carousel .dark-mask {
-  opacity: 0.1;
+  opacity: 0.2;
   filter: alpha(opacity=10);
 }
 .slant {
