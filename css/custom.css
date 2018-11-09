@@ -120,9 +120,9 @@ figure.right + *::after { /* clearfix */
     line-height: 70px;
   }
 }
-.home-carousel h1,
-.home-carousel ul,
-.home-carousel p {
+.home-carousel h1 {
+/* .home-carousel ul,
+.home-carousel p { */
   text-transform: none;
 }
 .home-carousel {
