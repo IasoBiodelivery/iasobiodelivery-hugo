@@ -53,9 +53,10 @@
                                         </p>
                                         <p class="date-comments">
                                             <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> 
-                                                {{/* .Date.Format .Site.Params.date_format */}}
                                                 {{/* 
                                                     {{ .Date.Day }} · {{ index $.Site.Data.months (printf "%d" .Date.Month) }} · {{ .Date.Year }}
+                                                    {{ $data := index .Site.Data .Site.Language.Lang }}
+                                                    {{ .Date.Day }} · {{ index $data.months (printf "%d" .Date.Month) }} · {{ .Date.Year }}
                                                 */}}
                                                 {{ .Date.Format "02/01/2006" }}
                                             </a>

@@ -20,16 +20,10 @@
 
                     <div class="box">
 
-                        <p class="text-center">
-                            <a href="{{ .Site.BaseURL }}">
-                                <img src="{{ .Site.Params.logo }}" alt="{{ .Title }} logo">
-                            </a>
-                        </p>
+                        <h3>{{i18n "404msg" }}</h3>
+                        <h4 class="text-muted">{{ i18n "404error" }}</h4>
 
-                        <h3>Desculoe - esta página não está mais aqui...</h3>
-                        <h4 class="text-muted">Erro 404 - Página não encontrada</h4>
-
-                        <p class="buttons"><a href="{{ .Site.BaseURL }}" class="btn btn-template-main"><i class="fa fa-home"></i> Ir para a página inicial</a>
+                        <p class="buttons"><a href="{{ .Site.BaseURL | relLangURL }}" class="btn btn-template-main"><i class="fa fa-home"></i> {{ i18n "navHome" }}</a>
                         </p>
                     </div>
 

@@ -4,11 +4,12 @@ title = "Iaso Biodelivery"
 theme = "universal"
 # themesDir = "../.."
 
+isMultiLingual = true
 # languageCode = "en-us"
 languageCode = "pt-br"
-# Site language. Available translations in the theme's `/i18n` directory.
 # defaultContentLanguage = "en"
-defaultContentLanguage = "pt-br"
+# defaultContentLanguage = "pt-br"
+defaultContentLanguage = "pt"
 
 # Enable comments by entering your Disqus shortname
 # disqusShortname = "iasobiodelivery"
@@ -21,60 +22,176 @@ paginate = 5
 footnoteReturnLinkContents = "↑" # "↩"
 summaryLength = 50  # 70
 
+
 [blackfriday]
     fractions = false
 
-[menu]
-
-# Main menu
-
-[[menu.main]]
-    name = "Home"
-    url  = "/"
+# Portuguese ###############
+[languages.pt]
+    lang = "pt-br"
+    languageCode = "pt-br"
+    languagePrefix = "pt"
+    contentDir = "content/pt"
+    languageName = "Português"
     weight = 1
+    # Navigation
+    [languages.pt.menu]
+        [[languages.pt.menu.main]]
+            name = "Home"
+            url  = "/"
+            weight = 1
+        # [[languages.pt.menu.main]]
+        #     name = "Sobre"
+        #     # identifier = "sobre"
+        #     url  = "/sobre/"
+        #     weight = 2
+        [[languages.pt.menu.main]]
+            name = "Novidades"
+            # https://github.com/devcows/hugo-universal-theme/issues/46
+            # https://github.com/devcows/hugo-universal-theme/issues/88
+            # https://github.com/devcows/hugo-universal-theme/commit/12225a50bf043ff73639d932da2d7a525e53aced
+            # url  = "/noticias/"
+            url  = "/blog/"
+            # identifier = "blog"
+            weight = 2
+        [[languages.pt.menu.main]]
+            name = "Contato"
+            url  = "/contato/"
+            weight = 3
+        # Top bar social links menu
+        # FIXME Terá whatsapp?
+        [[languages.pt.menu.topbar]]
+            weight = 1
+            name = "LinkedIn"
+            url = "https://www.linkedin.com/company/iaso-biodelivery/"
+            pre = "<i class='fa fa-2x fa-linkedin'></i>"
+        [[languages.pt.menu.topbar]]
+            weight = 2
+            name = "Email"
+            url = "mailto:contato@iasobiodelivery.com.br"
+            pre = "<i class='fa fa-2x fa-envelope'></i>"
 
-[[menu.main]]
-    name = "Sobre"
-    # identifier = "sobre"
-    url  = "/sobre/"
+    # Params
+    [languages.pt.params]
+        defaultKeywords = ["iaso", "biodelivery", "implantes", "dispositivos médicos", "liberação de fármacos"]
+        defaultDescription = "Empresa de desenvolvimento de dispositivos médicos com sistema de liberação de fármacos"
+        # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+        copyright = "&copy; 2019, Iaso Biodelivery; todos os direitos reservados."
+
+        [languages.pt.params.contact]
+            emailsSubjectPrefix = "[Iaso:Site]"
+            thankyouPage = "obrigado"
+            # FIXME Quer receber email em cópia?
+            # emailCc = "izabellegindri@gmail.com"
+
+        [languages.pt.params.testimonials]
+            enable = true
+            # All testimonials are defined in their own files at 'exampleSite/data/testimonials'.
+            # TODO @Iza: Aqui o título vira "Produtos"?
+            title = "Produtos em desenvolvimento"
+            subtitle = "Implante subdérmico para o tratamento da Doença de Alzheimer."
+
+        [languages.pt.params.see_more]
+            enable = true
+            icon = "fa fa-handshake-o"
+            # icon = "fa fa-industry"
+            # icon = "fa fa-microchip"
+            title = "Investidores"
+            subtitle = "Quer fazer parte da revolução em tratamentos de doenças crônicas?"
+            link_url = "/contato"
+            link_text = "Entre em contato"
+
+        [languages.pt.params.clients]
+            enable = true 
+            # All clients are defined in their own files at 'exampleSite/data/clients'.
+            title = "Sobre"
+            subtitle = "Transformando soluções em saúde através da tecnologia de dispositivos médicos com sistemas de liberação de fármacos."
+            description = "A Iaso **Biodelivery** atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado? [Entre em contato.](/contato/)"
+            link_url = "/sobre"
+
+        [languages.pt.params.recent_posts]
+            enable = true
+            title = "Últimas novidades"
+            # FIXME Mudar este texto
+            # subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+# English ###############
+[languages.en]
+    lang = "en"
+    languageCode = "en-us"
+    languagePrefix = "en"
+    contentDir = "content/en"
+    languageName = "English"
     weight = 2
+    # Navigation
+    [languages.en.menu]
+        [[languages.en.menu.main]]
+            name = "Home"
+            url  = "/"
+            weight = 1
+        # [[languages.en.menu.main]]
+        #     name = "news"
+        #     url  = "/blog/"
+        #     weight = 2
+        [[languages.en.menu.main]]
+            name = "Contact"
+            url  = "/contact/"
+            weight = 2
+        # Top bar social links menu
+        [[languages.en.menu.topbar]]
+            weight = 1
+            name = "LinkedIn"
+            url = "https://www.linkedin.com/company/iaso-biodelivery/"
+            pre = "<i class='fa fa-2x fa-linkedin'></i>"
+        [[languages.en.menu.topbar]]
+            weight = 2
+            name = "Email"
+            url = "mailto:contato@iasobiodelivery.com.br"
+            pre = "<i class='fa fa-2x fa-envelope'></i>"
 
-[[menu.main]]
-    name = "Novidades"
-    # https://github.com/devcows/hugo-universal-theme/issues/46
-    # https://github.com/devcows/hugo-universal-theme/issues/88
-    # https://github.com/devcows/hugo-universal-theme/commit/12225a50bf043ff73639d932da2d7a525e53aced
-    # url  = "/noticias/"
-    url  = "/blog/"
-    # identifier = "blog"
-    weight = 3
+    # Params
+    [languages.en.params]
+        # TODO @Iza: traduzir
+        defaultKeywords = ["iaso", "biodelivery", "implantes", "dispositivos médicos", "liberação de fármacos"]
+        defaultDescription = "Empresa de desenvolvimento de dispositivos médicos com sistema de liberação de fármacos"
+        copyright = "&copy; 2019, Iaso Biodelivery; todos os direitos reservados."
 
-[[menu.main]]
-    name = "Contato"
-    url  = "/contato/"
-    weight = 4
+        [params.contact]
+            emailsSubjectPrefix = "[Iaso:Site]"
+            thankyouPage = "thankyou"
+            # FIXME Quer receber email em cópia?
+            # emailCc = "izabellegindri@gmail.com"
 
-# Top bar social links menu
+        [languages.en.params.testimonials]
+            enable = true
+            title = "Products"
+            subtitle = "Subdermal Implant for Alzheimer's Disease treatment."
 
-[[menu.topbar]]
-    weight = 1
-    name = "LinkedIn"
-    url = "https://www.linkedin.com/company/iaso-biodelivery/"
-    pre = "<i class='fa fa-2x fa-linkedin'></i>"
+        [languages.en.params.see_more]
+            enable = true
+            icon = "fa fa-handshake-o"
+            title = "Investors"
+            subtitle = "Do you want to be part of the revolution in chronic disease treatments?"
+            link_url = "/contact"
+            link_text = "Get in touch"
 
-[[menu.topbar]]
-    weight = 2
-    name = "Email"
-    url = "mailto:contato@iasobiodelivery.com.br"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
+        # TODO @Iza: traduzir
+        [languages.en.params.clients]
+            enable = true
+            title = "Sobre"
+            subtitle = "Transformando soluções em saúde através da tecnologia de dispositivos médicos com sistemas de liberação de fármacos."
+            description = "A Iaso **Biodelivery** atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado? [Entre em contato.](/contato/)"
+            link_url = "/sobre"
 
-    # FIXME Terá whatsapp?
+        [languages.en.params.recent_posts]
+            enable = false
+            title = "Latest news"
 
+
+# Generic params (common for all languages)
 [params]
     viewMorePostLink = "/blog/"
     # author = "Iaso Biodelivery"
-    defaultKeywords = ["iaso", "biodelivery", "implantes", "dispositivos médicos", "liberação de fármacos"]
-    defaultDescription = "Empresa de desenvolvimento de dispositivos médicos com sistema de liberação de fármacos"
 
     # Google Maps API key (if not set will default to not passing a key.)
     # googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
@@ -97,8 +214,6 @@ summaryLength = 50  # 70
     # Enable the contact form by entering your Formspree.io email
     email = "contato@iasobiodelivery.com.br"
 
-    # about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "&copy; 2018, Iaso Biodelivery; todos os direitos reservados."
     show_social_links_on_footer = true
 
     # Format dates with Go's time formatting
@@ -120,14 +235,10 @@ summaryLength = 50  # 70
     longitude = "-48.5090725"
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    # blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/blog/:title/"
 
-[params.contact]
-    emailsSubjectPrefix = "[Iaso:Site]"
-    thankyouPage = "obrigado"
-    # FIXME Quer receber email em cópia?
-    # emailCc = "izabellegindri@gmail.com"
-  
+
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
@@ -146,7 +257,7 @@ summaryLength = 50  # 70
 [params.homepage]
     enable = true
     title = "Iaso Biodelivery"
-    description = "<p>Delivering Heath Solutions</p>"
+    description = "<p>Implantable Drug-Delivery Platform</p>"
 
 [params.carousel]
     enable = false
@@ -159,38 +270,3 @@ summaryLength = 50  # 70
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
-
-[params.testimonials]
-    enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Produtos em desenvolvimento"
-    subtitle = "Implante subdérmico para o tratamento da Doença de Alzheimer."
-
-[params.see_more]
-    enable = true
-    icon = "fa fa-handshake-o"
-    # icon = "fa fa-industry"
-    # icon = "fa fa-microchip"
-    title = "Investidores"
-    subtitle = "Quer fazer parte da revolução em tratamentos de doenças crônicas?"
-    link_url = "/contato"
-    link_text = "Entre em contato"
-
-[params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "Sobre"
-    subtitle = "Transformando soluções em saúde através da tecnologia de dispositivos médicos com sistemas de liberação de fármacos."
-    # description = "A Iaso Biodelivery atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado?"
-    description = "A Iaso **Biodelivery** atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado? [Entre em contato.](/contato/)"
-    link_url = "/sobre"
-
-[params.recent_posts]
-    enable = true
-    title = "Últimas novidades"
-    # FIXME Mudar este texto
-    # subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."

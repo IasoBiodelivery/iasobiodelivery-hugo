@@ -4,7 +4,7 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ .Site.BaseURL }}">
+                <a class="navbar-brand home" href="{{ .Site.BaseURL | relLangURL }}">
                     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="logo">
                     <!--
                     <img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Title }} logo" class="hidden-xs hidden-sm">
@@ -21,22 +21,32 @@
             </div>
             <!--/.navbar-header -->
 
+            {{ $url := .RelPermalink }}
+
             <div class="navbar-collapse collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
-                  {{ range .Site.Menus.main }}
-                  <li class="dropdown">
+                    {{ $current := . }}
+                    {{ range .Site.Menus.main }}
+                    {{/*
+                      {{ $topLevel := replace .URL "/" "" }}
+                      {{ $isActive := eq $current.RelPermalink .URL | or (eq $current.Type $topLevel) | or (and (eq (default (trim .URL "/") .Identifier) "blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }}
+                    */}}
+                    {{ $isActive := eq (print $.Site.LanguagePrefix .URL) $current.RelPermalink }}
+                    <li class="dropdown{{ if $isActive }} active{{ end }}">
                     {{ if .HasChildren }}
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       {{ range .Children }}
-                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}
+                  
+                  {{ partial "i18nlist.html" . }}
                 </ul>
             </div>
             <!--/.nav-collapse -->

@@ -1,6 +1,8 @@
 {{ if isset .Site.Params "testimonials" }}
 {{ if .Site.Params.testimonials.enable }}
-{{ if gt (len .Site.Data.testimonials) 0 }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ if gt (len $data.testimonials) 0 }}
 <section class="bar background-pentagon no-mb">
     <div class="container">
         <div class="row">
@@ -13,10 +15,11 @@
                   {{ .Site.Params.testimonials.subtitle | markdownify }}
                 </p>
 
-                <!-- *** TESTIMONIALS CAROUSEL *** -->
+                <!-- *** TESTIMONIALS/PRODUCTS CAROUSEL *** -->
 
                 <ul class="owl-carousel testimonials same-height-row">
-                    {{ range .Site.Data.testimonials }}
+                    {{/* {{ range sort $data.testimonials "weight" }} */}}
+                    {{ range $data.testimonials }}
                     <li class="item">
                         <div class="testimonial same-height-always">
                             <div class="text">

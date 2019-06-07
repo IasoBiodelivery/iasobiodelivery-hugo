@@ -79,3 +79,9 @@
 
 - id: publishedOn
   translation: "em"
+
+# Customized for IasoBiodelivery
+- id: 404error
+  translation: "Erro 404 - Página não encontrada"
+- id: 404msg
+  translation: "Desculpe - esta página não está mais aqui."

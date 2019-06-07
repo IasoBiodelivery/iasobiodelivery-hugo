@@ -4,8 +4,6 @@ description: "Sobre a Iaso Biodelivery"
 keywords: ["about","sobre","iaso biodelivery", "mvp"]
 ---
 
-<!-- FIXME Usar qual imagem??? -->
-<!-- {{< figure src="/img/sobre/sobre_01-science.jpg" class="responsive" >}} -->
 {{< figure src="/img/sobre/sobre_01-science-small.jpg" class="responsive left clearfix" >}}
 
 A Iaso Biodelivery é uma startup voltada para o desenvolvimento e fabricação de dispositivos médicos implantáveis com sistemas de liberação de fármacos (DMISLF). Atuamos no processo inicial de desenvolvimento do produto até a produção do _minimum viable product_ (MVP, do inglês produto mínimo viável), que é então avaliado quanto a possibilidade de fabricação e comercialização pela própria empresa ou venda da tecnologia para indústrias do setor de dispositivos médicos e farmacêuticos. Neste contexto, entende-se o desenvolvimento e a produção como uma atividade especificamente qualificada para a área da saúde, abrangendo com igual cuidado a concepção, o projeto, a fabricação e a validação pré-clínica dos produtos e processos. Esta atividade busca, desde as etapas iniciais atender concomitantemente todos os requisitos obrigatórios de regulação destes produtos junto à vigilância sanitária para que a sua comercialização seja viabilizada.
@@ -20,5 +18,4 @@ A etapa de desenvolvimento e validação do MVP consiste na aplicação de metod
 
 ---
 
-<!-- FIXME manter isso? Em portugues... -->
 > No caso de querer saber mais sobre nós, por favor sinta-se à vontade para [entrar em contato]({{< ref "contato.md" >}}).
