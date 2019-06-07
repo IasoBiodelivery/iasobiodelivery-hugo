@@ -1,0 +1,6 @@
+weight: 2
+name: "Validação do MVP"
+# icon: "fa fa-spinner"
+# icon: "fa fa-tasks"
+icon: "fa fa-dashboard"
+description: "Desenvolvimento e validação do <em>minimum value product</em>."

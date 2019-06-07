@@ -85,3 +85,10 @@
   translation: "Error 404 - Page not found"
 - id: 404msg
   translation: "We are sorry - this page is not here anymore."
+
+- id: productDisease
+  translation: "The disease"
+- id: productPrevalence
+  translation: "Prevalence"
+- id: productSolution
+  translation: "Solution"

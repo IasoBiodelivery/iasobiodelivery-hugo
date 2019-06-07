@@ -2,7 +2,9 @@
 {{ if .Site.Params.testimonials.enable }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
+{{/*
 {{ if gt (len $data.testimonials) 0 }}
+*/}}
 <section class="bar background-pentagon no-mb">
     <div class="container">
         <div class="row">
@@ -11,33 +13,66 @@
                     <h2>{{ .Site.Params.testimonials.title }}</h2>
                 </div>
 
-                <p class="lead">
-                  {{ .Site.Params.testimonials.subtitle | markdownify }}
+                {{ range $data.testimonials }}
+                <p class="lead bold">
+                  <!-- {{ .Site.Params.testimonials.subtitle | markdownify }} -->
+                  {{ .name | markdownify }}
                 </p>
 
                 <!-- *** TESTIMONIALS/PRODUCTS CAROUSEL *** -->
 
+<!-- FIXME create shortcode -->
                 <ul class="owl-carousel testimonials same-height-row">
-                    {{/* {{ range sort $data.testimonials "weight" }} */}}
-                    {{ range $data.testimonials }}
                     <li class="item">
                         <div class="testimonial same-height-always">
                             <div class="text">
-                                <p>{{ .text | markdownify }}</p>
+                                <p>{{ .disease | markdownify }}</p>
                             </div>
                             <div class="bottom">
-                                <!-- <div class="icon"><i class="fa fa-quote-left"></i></div> -->
                                 <div class="name-picture">
+                                    {{/*
                                     <img class="" alt="" src="{{ .avatar | absURL }}">
-                                    <!-- <h5>{{ .name }}</h5> -->
-                                    <h5 class="clearfix">{{ .name }}</h5>
-                                    <!-- <p>{{ .position }}</p> -->
+                                    */}}
+                                    <img class="" alt="" src='{{ "img/testimonials/produto-1.jpg" | absURL }}'>
+                                    <h5 class="clearfix">{{ i18n "productDisease" }}</h5>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    {{ end }}
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>{{ .prevalence | markdownify }}</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="name-picture">
+                                    {{/*
+                                    <img class="" alt="" src="{{ .avatar | absURL }}">
+                                    */}}
+                                    <img class="" alt="" src='{{ "img/testimonials/produto-2.jpg" | absURL }}'>
+                                    <h5 class="clearfix">{{ i18n "productPrevalence" }}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="testimonial same-height-always">
+                            <div class="text">
+                                <p>{{ .solution | markdownify }}</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="name-picture">
+                                    {{/*
+                                    <img class="" alt="" src="{{ .avatar | absURL }}">
+                                    */}}
+                                    <img class="" alt="" src='{{ "img/testimonials/produto-3.jpg" | absURL }}'>
+                                    <h5 class="clearfix">{{ i18n "productSolution" }}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
+                {{ end }}
                 <!-- /.owl-carousel -->
 
                 <!-- *** TESTIMONIALS CAROUSEL END *** -->
@@ -47,6 +82,8 @@
     </div>
 </section>
 <!-- /.bar -->
+{{/*
 {{ end }}
+*/}}
 {{ end }}
 {{ end }}

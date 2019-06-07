@@ -1,0 +1,9 @@
+- name: "Subdermal Implant for Alzheimer's Disease treatment"
+  disease: "Alzheimer’s disease (AD) is a progressive neurodegenerative disease characterized by cognitive decline and memory loss. AD has intense impact on the quality of life o patients and their families."
+  prevalence: "The prevalence of Alzheimer’s disease (AD) have risen dramatically around the world, increasing from 47.47 million individuals in 2015 to a predicted 75.63 million in 2030 and 135.46 million in 2050. In Brazil this disease has reached more than 1 million of people and according to the Brazilian Association of Alzheimer’s disease, this number will duplicate until 2030."
+  solution: "The subdermal implant proposed by Iaso Biodelivery to treat the AD is being developed to release controlled doses of drug over an extended period of time. The use of this technology is focused on increasing patient compliance to the treatment, resulting in greater control over the progression of the disease."
+
+- name: "Intravesical Implant for Overractive Bladder treatment"
+  disease: "Overactive bladder (OAB) is a chronic condition where there is a frequent feeling of needing to urinate to a degree that it negatively affects a person's life."
+  prevalence: "19% of women of age suffer from OAB, with a market increase after 44 years-old. 67% do not adhere to current medication due to severe side-effects and low efficacy of currently available medication."
+  solution: "The Intravesical Implant promote a continuous deliver of Oxybutinin of at least 6 months. The local delivery is expected to significantly reduce  side-effects and provide a solution for the non-adhesion problem."

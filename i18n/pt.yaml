@@ -85,3 +85,10 @@
   translation: "Erro 404 - Página não encontrada"
 - id: 404msg
   translation: "Desculpe - esta página não está mais aqui."
+
+- id: productDisease
+  translation: "A Doença"
+- id: productPrevalence
+  translation: "Prevalência"
+- id: productSolution
+  translation: "Solução Proposta"
