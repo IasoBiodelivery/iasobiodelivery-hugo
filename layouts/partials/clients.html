@@ -17,7 +17,7 @@
                     {{ if .Site.Params.clients.link_url }}
                     <br>
                     <!-- btn-template-main -->
-                    <a href="{{ .Site.Params.clients.link_url }}" class="btn btn-template-primary btn-lg">{{ i18n "moreAboutUs" }}</a>
+                    <a href="{{ .Site.Params.clients.link_url | relLangURL }}" class="btn btn-template-primary btn-lg">{{ i18n "moreAboutUs" }}</a>
                     {{ end }}
                 </div>
 

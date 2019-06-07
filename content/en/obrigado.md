@@ -1,12 +1,12 @@
 ---
 # title: "Obrigado pelo contato"
-title: "Contato"
+title: "Contact"
 # type: "Page"
 ---
 
 <!-- FIXME Definir página de obrigado -->
 <!-- TODO @Iza: traduzir -->
 
-Obrigado, em breve entraremos em contato!
+Thank you, em breve entraremos em contato!
 
-Voltar para a página inicial
+Back to home page

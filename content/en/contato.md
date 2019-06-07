@@ -1,8 +1,7 @@
 ---
-title: "Contato"
+title: "Contact"
 slug: "contact"
 id: "contact"
 ---
 
-<!-- TODO @Iza: traduzir -->
-Para saber mais sobre oportunidades de desenvolvimento, parcerias e investimentos, entre em contato conosco.
+Get in touch if you want to learn more about our multifunctional plataform, investments and partnerships.

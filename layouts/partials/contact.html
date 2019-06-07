@@ -22,26 +22,29 @@
                         <div class="col-sm-6 col-lg-4">
                             <div class="form-group">
                                 <label for="name">{{ i18n "contactName" }}</label>
-                                <input type="text" class="form-control" name="Nome" id="name" placeholder="Nome completo" autocomplete="name nome" aria-required="true" required>
+                                <!-- <input type="text" class="form-control" name="Nome" id="name" placeholder="Nome completo" autocomplete="name nome" aria-required="true" required> -->
+                                <input type="text" class="form-control" name="Nome" id="name" autocomplete="name nome" aria-required="true" required>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="form-group">
                                 <label for="email">{{ i18n "contactMail" }}</label>
-                                <!-- <input type="text" class="form-control" name="_replyto" id="email" type="email" placeholder="Email de contato" autocomplete="email" aria-required="true" required> -->
-                                <input type="text" class="form-control" name="email" id="email" type="email" placeholder="Email de contato" autocomplete="email" aria-required="true" required>
+                                <!-- <input type="text" class="form-control" name="email" id="email" type="email" placeholder="Email de contato" autocomplete="email" aria-required="true" required> -->
+                                <input type="text" class="form-control" name="email" id="email" type="email" autocomplete="email" aria-required="true" required>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="form-group">
                                 <label for="email">{{ i18n "contactPhone" }}</label>
-                                <input type="text" class="form-control" name="Telefone" id="phone" type="phone" placeholder="(99) 99999-9999" autocomplete="phone telefone" aria-required="true" required>
+                                <!-- <input type="text" class="form-control" name="Telefone" id="phone" type="phone" placeholder="(99) 99999-9999" autocomplete="phone telefone" aria-required="true" required> -->
+                                <input type="text" class="form-control" name="Telefone" id="phone" type="phone" autocomplete="phone telefone" aria-required="true" required>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-8">
                             <div class="form-group">
                                 <label for="name">{{ i18n "contactSubject" }}</label>
-                                <input type="text" class="form-control" name="Assunto" id="subject" placeholder="Motivo do contato">
+                                <!-- <input type="text" class="form-control" name="Assunto" id="subject" placeholder="Motivo do contato"> -->
+                                <input type="text" class="form-control" name="Assunto" id="subject">
                             </div>
                         </div>
                     </div>
@@ -49,7 +52,8 @@
                         <div class="col-sm-12">
                             <div class="form-group">
                               <label for="message">{{ i18n "contactMessage" }}</label>
-                                <textarea id="message" class="form-control" name="Mensagem" placeholder="Escreva sua mensagem" aria-required="true" required></textarea>
+                                <!-- <textarea id="message" class="form-control" name="Mensagem" placeholder="Escreva sua mensagem" aria-required="true" required></textarea> -->
+                                <textarea id="message" class="form-control" name="Mensagem" aria-required="true" required></textarea>
                             </div>
                         </div>
 

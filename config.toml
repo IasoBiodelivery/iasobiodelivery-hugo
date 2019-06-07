@@ -152,7 +152,7 @@ summaryLength = 50  # 70
     # Params
     [languages.en.params]
         # TODO @Iza: traduzir
-        defaultKeywords = ["iaso", "biodelivery", "implantes", "dispositivos médicos", "liberação de fármacos"]
+        defaultKeywords = ["iaso", "biodelivery", "implantes", "medical devices", "liberação de fármacos"]
         defaultDescription = "Empresa de desenvolvimento de dispositivos médicos com sistema de liberação de fármacos"
         copyright = "&copy; 2019, Iaso Biodelivery; todos os direitos reservados."
 
@@ -178,10 +178,10 @@ summaryLength = 50  # 70
         # TODO @Iza: traduzir
         [languages.en.params.clients]
             enable = true
-            title = "Sobre"
-            subtitle = "Transformando soluções em saúde através da tecnologia de dispositivos médicos com sistemas de liberação de fármacos."
-            description = "A Iaso **Biodelivery** atua ativamente no desenvolvimento de soluções em saúde através a utilização da tecnologia de dispositivos médicos com sistemas de liberação de fármacos. Está interessado? [Entre em contato.](/contato/)"
-            link_url = "/sobre"
+            title = "About"
+            subtitle = "We have developed an Implantable Drug Delivery Platform (IDDD) for the treatment of Chronic Conditions."
+            description = "ADHESION<br>Improved Patient Compliance<br><br>LOCAL ACTION<br>Less-Side Effects due to Systemic Effects<br><br>LOWER DOSE<br>More efficacy and bioavailability."
+            link_url = "/contact"
 
         [languages.en.params.recent_posts]
             enable = false
