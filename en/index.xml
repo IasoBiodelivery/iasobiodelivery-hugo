@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iaso Biodelivery</title>
+    <link>http://www.iasobiodelivery.com.br/en/</link>
+    <description>Recent content on Iaso Biodelivery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.iasobiodelivery.com.br/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contato</title>
+      <link>http://www.iasobiodelivery.com.br/en/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.iasobiodelivery.com.br/en/contact/</guid>
+      <description>Para saber mais sobre oportunidades de desenvolvimento, parcerias e investimentos, entre em contato conosco.</description>
+    </item>
+    
+    <item>
+      <title>Contato</title>
+      <link>http://www.iasobiodelivery.com.br/en/obrigado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.iasobiodelivery.com.br/en/obrigado/</guid>
+      <description>Obrigado, em breve entraremos em contato!
+Voltar para a página inicial</description>
+    </item>
+    
+  </channel>
+</rss>

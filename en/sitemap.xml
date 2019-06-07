@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://www.iasobiodelivery.com.br/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://www.iasobiodelivery.com.br/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.iasobiodelivery.com.br/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.iasobiodelivery.com.br/en/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://www.iasobiodelivery.com.br/contato/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.iasobiodelivery.com.br/en/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.iasobiodelivery.com.br/en/obrigado/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://www.iasobiodelivery.com.br/obrigado/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.iasobiodelivery.com.br/en/obrigado/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.iasobiodelivery.com.br/en/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://www.iasobiodelivery.com.br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.iasobiodelivery.com.br/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.iasobiodelivery.com.br/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://www.iasobiodelivery.com.br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.iasobiodelivery.com.br/en/tags/"
+                />
+  </url>
+  
+</urlset>

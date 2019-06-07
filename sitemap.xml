@@ -1,48 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/blog/2018/10/17/2018-10-17-desenvolvimento_de_implante_subdermico_para_tratamento_da_doenca_de_alzheimer/</loc>
-    <lastmod>2018-10-17T18:01:27-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/blog/2018/10/16/2018-10-16-dispositivos_medicos_em_sistemas_de_liberacao_de_farmacos/</loc>
-    <lastmod>2018-10-16T19:20:27-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/contato/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/obrigado/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/</loc>
-    <lastmod>2018-10-17T18:01:27-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/blog/</loc>
-    <lastmod>2018-10-17T18:01:27-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/sobre/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.iasobiodelivery.com.br/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>http://www.iasobiodelivery.com.br/pt/sitemap.xml</loc>
+		
+	   	<lastmod>2018-10-17T18:01:27-03:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://www.iasobiodelivery.com.br/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>

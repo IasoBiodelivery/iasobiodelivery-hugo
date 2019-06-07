@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en-us">
 
   <head>
   <meta charset="utf-8">
@@ -59,7 +59,7 @@
   
   <meta property="og:title" content="Contato" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.iasobiodelivery.com.br/obrigado/" />
+  <meta property="og:url" content="http://www.iasobiodelivery.com.br/en/contact/" />
   <meta property="og:image" content="img/logo_text.svg" />
 
 </head>
@@ -77,14 +77,14 @@
 
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="/">
+                <a class="navbar-brand home" href="/en">
                     <img src="http://www.iasobiodelivery.com.br/img/logo_text.svg" alt="Contato logo" class="logo">
                     
-                    <span class="sr-only">Contato - vá à página inicial</span>
+                    <span class="sr-only">Contato - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
-                      <span class="sr-only">Alternar Navegação</span>
+                      <span class="sr-only">Toggle Navigation</span>
                         <i class="fa fa-align-justify"></i>
                     </button>
                 </div>
@@ -101,23 +101,15 @@
                     
                     <li class="dropdown">
                     
-                    <a href="/">Home</a>
+                    <a href="/en/">Home</a>
                     
                   </li>
                   
                     
                     
-                    <li class="dropdown">
+                    <li class="dropdown active">
                     
-                    <a href="/blog/">Novidades</a>
-                    
-                  </li>
-                  
-                    
-                    
-                    <li class="dropdown">
-                    
-                    <a href="/contato/">Contato</a>
+                    <a href="/en/contact/">Contact</a>
                     
                   </li>
                   
@@ -126,32 +118,32 @@
 
 <li class="dropdown language-dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#"
-        aria-label="Português" title="Português">
+        aria-label="English" title="English">
       <i class="fa fa-globe"></i>
       
-      <span class="lang-prefix">PT</span>
+      <span class="lang-prefix">EN</span>
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu" role="menu">
       <li class="active-lang">
-        <a aria-label="Português" title="Português">
-          Português
+        <a aria-label="English" title="English">
+          English
           <i class="fa fa-check"></i>
         </a>
       </li>
       
       
         
-      
-        
           <li>
-            <a href="http://www.iasobiodelivery.com.br/en/"
-                aria-label="English"
-                title="English">
-              English
+            <a href="http://www.iasobiodelivery.com.br/"
+                aria-label="Português"
+                title="Português">
+              Português
               
             </a>
           </li>
+        
+      
         
       
     </ul>
@@ -202,29 +194,126 @@
         <div id="content">
             
 
-            <div class="container">
+              <div class="container" id="contact">
 
-                <div class="row">
+    <div class="row">
+        <div class="col-md-9">
 
-                    
-                    <div class="col-md-10" id="page-content">
+            <section>
 
-                        <div>
-                          <!-- FIXME Definir página de obrigado -->
+                <!-- TODO @Iza: traduzir -->
 
-<p>Obrigado, em breve entraremos em contato!</p>
+<p>Para saber mais sobre oportunidades de desenvolvimento, parcerias e investimentos, entre em contato conosco.</p>
 
-<p>Voltar para a página inicial</p>
 
-                        </div>
-
-                    </div>
-
-                </div>
                 
 
-            </div>
+                <div class="heading">
+                  <h3>Contact form</h3>
+                </div>
+
+                <div id="contact-message"></div>
+
+                
+                <form class="contact-form" method="post" action="https://formspree.io/contato@iasobiodelivery.com.br">
+                
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" name="Nome" id="name" placeholder="Nome completo" autocomplete="name nome" aria-required="true" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                
+                                <input type="text" class="form-control" name="email" id="email" type="email" placeholder="Email de contato" autocomplete="email" aria-required="true" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="form-group">
+                                <label for="email">Phone number</label>
+                                <input type="text" class="form-control" name="Telefone" id="phone" type="phone" placeholder="(99) 99999-9999" autocomplete="phone telefone" aria-required="true" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-8">
+                            <div class="form-group">
+                                <label for="name">Subject</label>
+                                <input type="text" class="form-control" name="Assunto" id="subject" placeholder="Motivo do contato">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">Message</label>
+                                <textarea id="message" class="form-control" name="Mensagem" placeholder="Escreva sua mensagem" aria-required="true" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 text-center">
+                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>Send Message</button>
+
+                        </div>
+                    </div>
+                    
+
+                    <input type="hidden" name="_subject" value="[Iaso:Site] Novo formulário enviado!">
+                    
+                    
+                    <input type="hidden" name="_language" value="pt-BR" />
+                    <input type="hidden" name="_next" value="http://www.iasobiodelivery.com.br/en/thankyou" />
+                    <input type="text" name="_gotcha" style="display:none" />
+
+                </form>
+
+                
+
+            </section>
+
+        </div>
+
+        <div class="col-md-3">
+
             
+            <section>
+
+              <h3 class="text-uppercase"> Address</h3>
+
+                <p><strong>Iaso Biodelivery</strong>
+        <br>SC-401, km 01, 600
+        <br>Ed. CELTA - João Paulo
+        <br>88030-000
+        <br>Florianópolis - SC - <strong>Brasil</strong>
+      </p>
+      
+
+            </section>
+
+            
+
+        </div>
+
+    </div>
+    
+</div>
+
+
+  
+      <div class="hidden">
+        <input id="gmap-lat" value="-27.5711992" />
+        <input id="gmap-lng" value="-48.5090725" />
+        <input id="gmap-marker" value="http://www.iasobiodelivery.com.br/img/marker.png" />
+        
+          <input id="gmap-dir" value="-27.5711992,-48.5090725" />
+        
+      </div>
+      <div id="map" />
+  
+
+
+
 
             
         </div>
@@ -238,41 +327,7 @@
         
         <div class="col-sm-6">
 
-             
-            <h4>Últimas novidades</h4>
-
-            <div class="blog-entries">
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://www.iasobiodelivery.com.br/blog/desenvolvimento-de-implante-subd%C3%A9rmico-para-tratamento-da-doen%C3%A7a-de-alzheimer/">
-                          
-                            <img src="http://www.iasobiodelivery.com.br/img/blog/light-bulb.jpg" class="img-responsive" alt="Desenvolvimento de implante subdérmico para tratamento da doença de Alzheimer">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://www.iasobiodelivery.com.br/blog/desenvolvimento-de-implante-subd%C3%A9rmico-para-tratamento-da-doen%C3%A7a-de-alzheimer/">Desenvolvimento de implante subdérmico para tratamento da doença de Alzheimer</a></h5>
-                    </div>
-                </div>
-                
-                <div class="item same-height-row clearfix">
-                    <div class="image same-height-always">
-                        <a href="http://www.iasobiodelivery.com.br/blog/dispositivos-m%C3%A9dicos-em-sistemas-de-libera%C3%A7%C3%A3o-de-f%C3%A1rmacos/">
-                          
-                            <img src="http://www.iasobiodelivery.com.br/img/blog/reflection-water-water-drops.jpg" class="img-responsive" alt="Dispositivos médicos em sistemas de liberação de fármacos">
-                          
-                        </a>
-                    </div>
-                    <div class="name same-height-always">
-                        <h5><a href="http://www.iasobiodelivery.com.br/blog/dispositivos-m%C3%A9dicos-em-sistemas-de-libera%C3%A7%C3%A3o-de-f%C3%A1rmacos/">Dispositivos médicos em sistemas de liberação de fármacos</a></h5>
-                    </div>
-                </div>
-                
-            </div>
-
-            <hr class="hidden-md hidden-lg">
-             
+              
 
         </div>
         
@@ -281,7 +336,7 @@
         
         <div class="col-sm-6">
 
-          <h4>Contato</h4>
+          <h4>Contact</h4>
 
             <strong>Iaso Biodelivery</strong>
         <br>SC-401, km 01, 600
@@ -306,7 +361,7 @@
             </div>
             
 
-            <a href="/contact" class="btn btn-small btn-template-main">Vá à página de contato</a>
+            <a href="/contact" class="btn btn-small btn-template-main">Go to contact page</a>
 
             <hr class="hidden-md hidden-lg hidden-sm">
 
@@ -332,7 +387,7 @@
             
             <p class="pull-right templateby-license">
               
-              Template por <a style="color: #ccc" href="http://bootstrapious.com/free-templates" rel="noopener noreferrer" target="_blank">Bootstrapious</a>.
+              Template by <a style="color: #ccc" href="http://bootstrapious.com/free-templates" rel="noopener noreferrer" target="_blank">Bootstrapious</a>.
               
 
               
