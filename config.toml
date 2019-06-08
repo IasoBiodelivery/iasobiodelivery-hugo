@@ -151,10 +151,9 @@ summaryLength = 50  # 70
 
     # Params
     [languages.en.params]
-        # TODO @Iza: traduzir
-        defaultKeywords = ["iaso", "biodelivery", "implantes", "medical devices", "liberação de fármacos"]
-        defaultDescription = "Empresa de desenvolvimento de dispositivos médicos com sistema de liberação de fármacos"
-        copyright = "&copy; 2019, Iaso Biodelivery; todos os direitos reservados."
+        defaultKeywords = ["iaso", "biodelivery", "implantes", "medical devices", "controlled drugs doses release"]
+        defaultDescription = "Implantable Drug-Delivery Platform"
+        copyright = "&copy; 2019, Iaso Biodelivery; all rights reserved."
 
         [params.contact]
             emailsSubjectPrefix = "[Iaso:Site]"
@@ -175,12 +174,11 @@ summaryLength = 50  # 70
             link_url = "/contact"
             link_text = "Get in touch"
 
-        # TODO @Iza: traduzir
         [languages.en.params.clients]
             enable = true
             title = "About"
             subtitle = "We have developed an Implantable Drug Delivery Platform (IDDD) for the treatment of Chronic Conditions."
-            description = "ADHESION<br>Improved Patient Compliance<br><br>LOCAL ACTION<br>Less-Side Effects due to Systemic Effects<br><br>LOWER DOSE<br>More efficacy and bioavailability."
+            description = "<b>ADHESION</b><br>Improved Patient Compliance<br><br><b>LOCAL ACTION</b><br>Less-Side Effects due to Systemic Effects<br><br><b>LOWER DOSE</b><br>More efficacy and bioavailability."
             link_url = "/contact"
 
         [languages.en.params.recent_posts]

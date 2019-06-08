@@ -68,8 +68,8 @@
   translation: "About us"
 
 - id: moreAboutUs
-  translation: "Read more about us"
-  # translation: "Contact us"
+  # translation: "Read more about us"
+  translation: "Contact us"
 
 - id: newer
   translation: "Newer"

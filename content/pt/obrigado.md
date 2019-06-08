@@ -8,4 +8,4 @@ title: "Contato"
 
 Obrigado, em breve entraremos em contato!
 
-Voltar para a página inicial
+[Voltar para a página inicial]({{< relref "/" >}})
